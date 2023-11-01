@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    image: python:3.11-bullseye
+    volumes:
+      - ./:/var/app
+    networks:
+      - workspace
+    env_file:
+      - .env
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: django_db
+    networks:
+      - workspace
+
+networks:
+  workspace:
