@@ -15,27 +15,3 @@ To set up your development environment for this project, follow these steps:
    git clone https://github.com/gadc1996/django-api
    
    Navigate to the Project Folder
-
-## Script Descriptions
-
-This project uses Pipenv for managing dependencies and running scripts. Below are the available commands and their descriptions:
-
-### Django specic scripts
-- `setup`: Initialize environment configuration
-- `app`: Create a new Django application in the "src" folder.
-- `migrations`: Generate migrations for the Django database.
-- `migrate`: Apply migrations to the database.
-- `serve`: Start the Django development server.
-- `superuser`: Create a superuser in the Django database.
-- `shell`: Open the interactive Django shell.
-- `test [name]`: Run Django tests for a specific application `[name]`.
-- `eb-init`: Initialize Elastic Beanstalk with Docker.
-- `create`: Create an Elastic Beanstalk environment``.
-- `eb-terminate`: Terminate Elastic Beanstalk environment.
-
-### Usage
-
-To run any of the above commands, use the following format:
-
-```shell
-pipenv run [command]

@@ -4,7 +4,7 @@
 	"name": "Django",
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/var/app",
+	"workspaceFolder": "/app",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -12,14 +12,20 @@
 				"ms-python.vscode-pylance",
 				"ms-python.black-formatter",
 				"batisteo.vscode-django",
-				"FedericoVarela.pipenv-scripts"
-			]
+				"FedericoVarela.pipenv-scripts",
+				"ms-azuretools.vscode-docker"
+			],
+			"settings": {
+				"terminal.integrated.shell.linux": "/bin/bash"
+			}
 		}
 	},
 	"overrideCommand": true,
-	"postCreateCommand": "pipenv install",
+	// "postCreateCommand": "pipenv install",
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/aws-eb-cli:1": {},
-		"ghcr.io/devcontainers-contrib/features/pipenv:2": {}
-	}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+	"remoteUser": "vscode",
 }
