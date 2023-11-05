@@ -4,7 +4,7 @@
 	"name": "Django",
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/app",
+	"workspaceFolder": "/var/app",
 	"customizations": {
 		"vscode": {
 			"extensions": [

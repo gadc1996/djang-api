@@ -11,13 +11,13 @@ RUN groupadd -g $USER_GID vscode \
     && chown -R $USER_UID:$USER_GID /home/$USERNAME \
     && chsh -s /bin/bash vscode
 
-WORKDIR /app
+WORKDIR /var/app
 
-COPY . /app
+COPY . /var/app
 
-RUN chown -R vscode:vscode /app
-RUN chmod -R 755 /app
+RUN chown -R vscode:vscode /var/app
+RUN chmod -R 755 /var/app
 
 USER vscode
 
-RUN pip install --no-cache-dir -r /app/requirements.txt
+RUN pip install --no-cache-dir -r /var/app/requirements.txt
