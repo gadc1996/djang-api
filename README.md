@@ -3,7 +3,7 @@
 
 To set up your development environment for this project, follow these steps:
 
-1. Install [Visual Studio Code Remote - Containers extension](vscode:extension/ms-vscode-remote.remote-containers).
+1. Install [Visual Studio Code Remote - Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 
    You can install this extension from the Visual Studio Code Marketplace. It allows you to develop in a Docker container, which is useful for isolating your project's dependencies and ensuring consistency across different development environments.
 
