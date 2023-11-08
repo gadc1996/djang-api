@@ -15,18 +15,20 @@ To set up your development environment for this project, follow these steps:
    git clone https://github.com/gadc1996/django-api
    
    Navigate to the Project Folder
+   ```
 
 ## Cli
 
 The project includes a cli utility, powered by [Click](https://click.palletsprojects.com/en/8.1.x/)to manage development common work flows, for more information on available commands use:
 
-   ```shell
-   cli
+```shell
+cli command <command_name>
+```
 
 ### Extending cli
 You can use command:
-   ```shell
-   cli command <command_name>
-
-To generate a new cli using the project template, new commands are registered automatically,check 'cli.py' for more information. 
+```shell
+cli command <command_name>
+```
+To generate a new cli using the project template, new commands are registered automatically,check [cli.py](./cli.py) for more information. 
    
