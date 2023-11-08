@@ -27,15 +27,15 @@ To use Dev Containers with your project:
 1. Open your project in Visual Studio Code.
 
 2. Select 'Reopen in container' from the dialog that appears if the project is already configured with Dev Containers.
-![image](https://github.com/gadc1996/django-api/assets/67934500/1e04731b-d889-479c-8f2d-25b593f5e43b)
+   ![image](https://github.com/gadc1996/django-api/assets/67934500/1e04731b-d889-479c-8f2d-25b593f5e43b)
 
-Alternatively, you can open the command palette (Ctrl + Shift + P) and select "Dev Containers: Rebuild and Reopen in Container."
-![image](https://github.com/gadc1996/django-api/assets/67934500/9350b990-856e-4a16-9cce-55c51ea69d1a)
+   Alternatively, you can open the command palette (Ctrl + Shift + P) and select "Dev Containers: Rebuild and Reopen in Container."
+   ![image](https://github.com/gadc1996/django-api/assets/67934500/9350b990-856e-4a16-9cce-55c51ea69d1a)
 
 3. Once the Dev Container configuration is complete, an instance of VS Code will be generated with all the necessary tools for your project. You can confirm this because the title bar will display "Dev Container" followed by the name of your project.
-![image](https://github.com/gadc1996/django-api/assets/67934500/0bb9f5ca-f6a4-4cd1-869c-77283c489d73)
+   ![image](https://github.com/gadc1996/django-api/assets/67934500/0bb9f5ca-f6a4-4cd1-869c-77283c489d73)
 
-Enjoy the flexibility and consistency that Dev Containers offer for your software development!
+   Enjoy the flexibility and consistency that Dev Containers offer for your software development!
 
 ## Cli
 The project includes a cli utility, powered by [Click](https://click.palletsprojects.com/en/8.1.x/)to manage development common work flows, for more information on available commands use:
