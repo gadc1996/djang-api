@@ -4,6 +4,7 @@ import os
 
 @click.group()
 def cli():
+    """Command líne interface for project development""" 
     pass
 
 # Dynamically import and register commands from the 'commands' directory
