@@ -21,7 +21,6 @@
 		}
 	},
 	"overrideCommand": true,
-	// "postCreateCommand": "pipenv install",
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/aws-eb-cli:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
