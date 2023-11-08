@@ -1,15 +1,15 @@
 from setuptools import setup
 
 setup(
-    name='cli',
-    version='0.1.0',
-    py_modules=['cli'],
+    name="cli",
+    version="0.1.0",
+    py_modules=["cli"],
     install_requires=[
-        'Click',
+        "Click",
     ],
     entry_points={
-        'console_scripts': [
-            'cli = cli:cli',
+        "console_scripts": [
+            "cli = cli:cli",
         ],
     },
 )

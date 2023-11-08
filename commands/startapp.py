@@ -10,7 +10,6 @@ def startapp(app_name):
     dir = f"project/{app_name}"
 
     if os.path.isdir(dir):
-        click.echo()
         click.secho(f"App {app_name} already exists", fg="red")
     else:
         os.mkdir(dir)

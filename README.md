@@ -1,4 +1,6 @@
 # Django REST Api
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 ## Setting Up
 
 To set up your development environment for this project, follow these steps:
