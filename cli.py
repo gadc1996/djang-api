@@ -5,6 +5,7 @@ import os
 
 @click.group()
 def cli():
+    """Command líne interface for project development""" 
     pass
 
 
