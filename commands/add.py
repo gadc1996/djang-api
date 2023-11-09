@@ -7,6 +7,7 @@ def add():
     """Add new project components using template files"""
     pass
 
+
 @add.command()
 @click.argument("command_name")
 def command(command_name):

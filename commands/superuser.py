@@ -2,7 +2,6 @@ import click
 import subprocess
 
 
-
 @click.command()
 def superuser():
     """Create a superuser account with administrative privileges."""
@@ -18,5 +17,3 @@ def superuser():
         )
     except:
         pass
-        
-        
