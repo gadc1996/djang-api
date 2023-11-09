@@ -21,6 +21,7 @@
 		}
 	},
 	"overrideCommand": true,
+	"postCreateCommand": "cli setup",
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/aws-eb-cli:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},

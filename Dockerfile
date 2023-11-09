@@ -20,6 +20,7 @@ RUN chmod -R 755 /var/app
 
 USER vscode
 
+
 RUN pip install --upgrade pip \
     && pip install --no-cache-dir -r /var/app/requirements.txt \
     && pip install --editable .

@@ -1,0 +1,7 @@
+from rest_framework import serializers
+from {{ name | pluralize }}.models import {{ name | capitalize }}, LANGUAGE_CHOICES, STYLE_CHOICES
+
+class {{ name | capitalize }}Serializer(serializers.ModelSerializer):
+    class Meta:
+        model = {{ name | capitalize }}
+        fields = []
