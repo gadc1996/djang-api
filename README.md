@@ -49,5 +49,4 @@ You can use command:
 ```shell
 cli command <command_name>
 ```
-To generate a new cli using the project template, new commands are registered automatically,check [cli.py](./cli.py) for more information. 
-   
+To generate a new cli using the project template, new commands are registered automatically,check [cli.py](./cli.py) for more information.

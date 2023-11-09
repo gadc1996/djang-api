@@ -18,5 +18,16 @@ services:
     networks:
       - workspace
 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+    ports:
+      - "8081:80"
+    networks:
+      - workspace
+
+
 networks:
   workspace:

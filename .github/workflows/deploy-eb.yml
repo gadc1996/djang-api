@@ -14,7 +14,7 @@ jobs:
 
     - name: Generate deployment package
       run: zip -r deploy.zip . -x '*.git*'
-        
+
     - name: Get the latest git commit hash
       id: get_commit_hash
       run: echo "::set-output name=commit_hash::$(git rev-parse --short HEAD)"
