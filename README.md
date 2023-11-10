@@ -10,6 +10,17 @@ Before you begin, make sure you have the following:
 - [Docker](https://www.docker.com/) installed on your system.
 - [Visual Studio Code](https://code.visualstudio.com/) installed.
 
+## Installation
+1. Clone repository
+```
+git clone https://github.com/gadc1996/django-api
+```
+
+2. Copy env file
+```
+cp .env.example .env
+```
+
 ## Installing Dev Containers
 
 Follow these steps to install Dev Containers:
